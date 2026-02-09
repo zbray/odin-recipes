@@ -12,12 +12,14 @@ body {
   margin: 0;
   display: grid;
   grid-template-columns: repeat(auto-fill, 200px);
-  column-gap: 1em;
-  row-gap: 2em;
+  justify-content: center;
+  gap: 2em;
   grid-row-gap: 3em;
+
   a {
     color: white;
     text-decoration: none;
+    display: block;
   }
   figcaption {
     font-size: 1.2em;
@@ -31,6 +33,11 @@ body {
   }
   figure {
     margin: 0;
+  }
+  .tech-title {
+    font-size: 0.85em;
+    opacity: 0.7;
+    margin-top: 0.2em;
   }
 }
 
